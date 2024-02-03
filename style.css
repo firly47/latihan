@@ -1,0 +1,26 @@
+h1 {
+	font-family: arial, cursive, sans-serif;
+	font-size: 50px;
+	font-weight: normal;
+	font-variant: small-caps;
+	font-style: normal;
+}
+/* value lebih dari satu brarti, browser akan mencari arial, 
+klo tidak ada browser akan mencari cursive
+klo masih tidak ada browser akan mencari sans serif
+sans-serif adalah jenis font yang tidak memiliki kaki
+	sedangkan serif memiliki kaki */
+p {
+	font: normal normal 12px/20px times new roman;
+}
+
+/* untuk menuliskan property supaya lebih singkat
+bisa menggunakan metode SHORTCUT 
+seperti :
+
+body {
+	font: font-style font-variant font weight font-size line-height font-family;
+
+	isi value langsung pada masing masing property, tetatp harus ber urutan.
+	property yg wajib diisi adalah font-size dan font-family
+ */}
