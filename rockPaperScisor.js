@@ -1,3 +1,4 @@
+// firly74
 // get the player chooise
 loop   = true;
 while (loop == true) {
